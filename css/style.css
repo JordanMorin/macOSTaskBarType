@@ -90,7 +90,7 @@ img {
 #dock li span {
     display: none;
     position: absolute;
-    bottom: 140px;
+    bottom: 90px;
     left: 0;
     width: 100%;
     background-color: rgba(0, 0, 0, .75);
@@ -107,8 +107,8 @@ img {
 }
 
 #dock li img {
-    width: 64px;
-    height: 64px;
+    width: 48px;
+    height: 48px;
     margin-bottom: 10px;
     -webkit-box-reflect: below 2px -webkit-gradient(linear, left top, left bottom, from(transparent),
             color-stop(0.7, transparent), to(rgba(255, 255, 255, .5)));
@@ -121,18 +121,19 @@ img {
     -o-transform-origin: 50% 100%;
 }
 
+/*element mis en avant*/
 #dock li:hover img {
-    -webkit-transform: scale(2);
-    -moz-transform: scale(2);
-    -o-transform: scale(2);
-    margin: 0 2em 10px;
-}
-
-/* one element after and element before (with JS)*/
-#dock li:hover+li img,
-#dock li.prev img {
     -webkit-transform: scale(1.4);
     -moz-transform: scale(1.4);
     -o-transform: scale(1.4);
-    margin: 0 1.4em 10px;
+    margin: 0 1.3em 11px;
+}
+
+/* elements à coté de ceux mis en avant */
+#dock li:hover+li img,
+#dock li.prev img {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    margin: 0 1.0em 10px;
 }
