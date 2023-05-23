@@ -76,7 +76,7 @@ img {
 }
 
 #dock ul {
-    font-size: 14px;
+    font-size: 10px;
     padding: 0 30px;
     margin: 0;
 }
@@ -123,10 +123,10 @@ img {
 
 /*element mis en avant*/
 #dock li:hover img {
-    -webkit-transform: scale(1.15) rotate(15deg);
-    -moz-transform: scale(1.15) rotate(15deg);
-    -o-transform: scale(1.15) rotate(15deg);
-    margin: 0 1.3em 11px;
+    -webkit-transform: scale(1.15) rotate(10deg);
+    -moz-transform: scale(1.15) rotate(10deg);
+    -o-transform: scale(1.15) rotate(10deg);
+    margin: 0 0.30em 11px;
 }
 
 /* elements à coté de ceux mis en avant */
@@ -135,5 +135,5 @@ img {
     -webkit-transform: scale(1.05);
     -moz-transform: scale(1.05);
     -o-transform: scale(1.05);
-    margin: 0 1.0em 10px;
+    margin: 0 0.1em 10px;
 }
