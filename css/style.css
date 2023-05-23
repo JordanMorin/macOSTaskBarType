@@ -123,17 +123,17 @@ img {
 
 /*element mis en avant*/
 #dock li:hover img {
-    -webkit-transform: scale(1.4);
-    -moz-transform: scale(1.4);
-    -o-transform: scale(1.4);
+    -webkit-transform: scale(1.15) rotate(15deg);
+    -moz-transform: scale(1.15) rotate(15deg);
+    -o-transform: scale(1.15) rotate(15deg);
     margin: 0 1.3em 11px;
 }
 
 /* elements à coté de ceux mis en avant */
 #dock li:hover+li img,
 #dock li.prev img {
-    -webkit-transform: scale(1.1);
-    -moz-transform: scale(1.1);
-    -o-transform: scale(1.1);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -o-transform: scale(1.05);
     margin: 0 1.0em 10px;
 }
